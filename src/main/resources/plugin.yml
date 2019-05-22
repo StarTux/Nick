@@ -1,0 +1,17 @@
+main: com.cavetale.nick.NickPlugin
+name: Nick
+version: 0.1
+api-version: 1.13
+description: Simple player nickname plugin.
+author: StarTux
+website: https://cavetale.com
+depend: [SQL]
+softdepend: []
+commands:
+  nick:
+    description: Nick Command
+    permission: nick.nick
+    usage: /nick
+permissions:
+  nick.nick:
+    description: Use /nick
